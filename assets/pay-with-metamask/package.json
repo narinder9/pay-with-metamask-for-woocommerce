@@ -1,0 +1,29 @@
+{
+	"name": "pay-with-metamask",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"format": "wp-scripts format",
+		"lint:js": "wp-scripts lint-js",
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build:main": "wp-scripts build src/main/index.js --output-path=build/main --output-filename=[contenthash].js",
+		"build:checkout": "wp-scripts build src/checkout/index.js --output-path=build/checkout --output-filename=[contenthash].js",		
+		"start:main": "wp-scripts start src/main/index.js --output-path=build/main ",
+		"start:checkout": "wp-scripts start src/checkout/index.js --output-path=build/checkout"
+		
+	},
+	"author": "coolplugins",
+	"license": "ISC",
+	"dependencies": {		
+		"@wordpress/scripts": "^26.12.0",
+		"axios": "^1.5.0",
+		"connectkit": "^1.5.3",
+		"ethers": "5.6.6",
+		"react-content-loader": "^6.2.1",		
+		"react-select": "^5.7.4",
+		"sweetalert2": "^11.7.31",		
+		"viem": "^1.15.0",
+		"wagmi": "^1.4.3"
+	}
+}

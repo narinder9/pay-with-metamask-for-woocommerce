@@ -1,4 +1,20 @@
+=== Pay With MetaMask For WooCommerce - Cryptocurrency Payment Gateway ===
+Contributors:narinder-singh,satindersingh,coolplugins
+Donate link:https://paypal.me/CoolPlugins/10USD/
+Tags:crypto, metamask, WooCommerce, cryptocurrency, payment, e-commerce, bitcoin, ethereum, crypto payments,web3
+Requires at least:4.6
+Tested up to:6.3.2
+Requires PHP:5.6
+Stable tag:1.4
+License:GPLv2 or later
+License URI:http://www.gnu.org/licenses/gpl-2.0.html
+
+Use MetaMask cryptocurrency payment gateway for WooCommerce store and let customers pay with USDT, ETH, BNB or BUSD.
+
+== Description ==
+
 ### 🦊 MetaMask Cryptocurrency Payment Gateway
+
 
 Let your customers pay with cryptocurrency - USDT, ETH, BNB or BUSD inside your WooCommerce store via **MetaMask extension** for WooCommerce store. You will receive crypto payments easily inside your store, cryptocurrency will be transferred immediately inside your personal crypto wallet address.
 
@@ -79,3 +95,117 @@ This plugin is not developed by or affiliated with "**MetaMask**" or "**ConsenSy
 * **API docs:-** [https://docs.openexchangerates.org/](https://docs.openexchangerates.org/) 
 * **Privacy policy:-** [https://openexchangerates.org/privacy](https://openexchangerates.org/privacy)   
 * **Term of Use:-** [https://openexchangerates.org/terms](https://openexchangerates.org/terms)  
+
+== Screenshots ==
+1. Order Payment via MetaMask payment Gateway Flow
+2. Pay With MetaMask For WooCommerce Settings
+3. Pay With MetaMask coin selection settings
+4. Pay With MetaMask Payment Gateway Settings
+
+== Installation ==
+
+1. Install **Pay With MetaMask For WooCommerce - Cryptocurrency Payment Gateway** from the WordPress.org repository or by uploading plugin-zip unzipped folder to the **/wp-content/plugins** directory.
+2. Activate the plugin through **Plugins >> Installed Plugin** menu in WordPress
+3. After plugin activation, you can find the Binace payment gateway settings in the Woocommerce Payments Section.
+
+== Changelog ==
+
+<strong>**Version 1.4| 18 Oct 2023**</strong>
+<pre>
+Added: Integrated Connectkit library for secure and easy wallet connection.
+Added: New payment flow for coin selection on checkout page.
+Added: USDT token support in ethereum network.
+Fixed: Large order price issue.
+Improved: Payment process user interface.
+</pre>
+<strong>**Version 1.3| 19 Aug 2023**</strong>
+<pre>
+Fixed: Major security update.
+Added: An additional security layer (hmac) to protect transactions.
+Added: Sepolia test network.
+Improved: Enhanced and optimized the overall plugin codebase.
+Improved: Tested upto WordPress Version 6.3.
+</pre>
+<strong>**Version 1.2.8| 04 April 2023**</strong>
+<pre>
+Minor Changes: Textual changes.
+Wordpress tested up to: Version 6.2.
+</pre>
+
+<strong>**Version 1.2.7| 22 Feb 2023**</strong>
+<pre>
+Added: Notice for Blocked Binance API.
+Fixed: Long price issue.
+Improved: Automated Login&chain change process.
+Improved: Main js file structure.
+Improved: User interface.
+</pre>
+<strong>**Version 1.2.6| 02 Dec 2022**</strong>
+<pre>
+Improved: Updated wrong spell
+Updated: New links
+</pre>
+<strong>**Version 1.2.5| 27 Oct 2022**</strong>
+<pre>
+Added: GoerliETH Test Network.
+Added: Crypto payment fields on thankyou page.
+Removed: Rinkeby, Ropsten deprecated test networks.
+Fixed: Active chain issue.
+Improved: Save transaction details on order payment confirmation.
+Improved: Error handling.
+Improved: Overall code.
+</pre>
+
+<strong>**Version 1.2.4| 24 June 2022**</strong>
+<pre>
+Added: Subscription product compatibility.
+Added: Notice for unsupported store currency.
+Fixed:Metamask network change issue.
+</pre>
+
+<strong>**Version 1.2.3| 13 June 2022**</strong>
+<pre>
+Added: Pro version tabs , links & docs.
+Fixed: Check out button css issue.
+Improved: Database transaction save query.
+
+</pre>
+
+<strong>**Version 1.2.2| 31 March 2022**</strong>
+<pre>
+Improved: Static messages.
+Improved: Pay button style.
+Removed: Extra code.
+</pre>
+
+<strong>**Version 1.2| 29 March 2022**</strong>
+<pre>
+Added: Codestar settings framework.
+Added: Popup for payment confirmation.
+Added: All supported faucet links in admin.
+Improved: Overall file structure.
+Improved: Transaction securities.
+Improved: MetaMask payment interface.
+Improved: Dynamic order status change status.
+</pre>
+
+<strong>**Version 1.1.1| 10 March 2022**</strong>
+<pre>
+Note:If Binance test not working  Delete  once Binance test net from the MetaMask network settings then try again with latest plugin update version 1.1.1
+Fixed: Binance test net not working issue.
+Fixed: ETH high gas price suggestion.
+</pre>
+
+<strong>**Version 1.1 | 09 Feb 2022**</strong>
+<pre>
+New:Integrated Transactions list section inside admin
+New:Added review and feedback notice
+Added: Admin side notice for invalid API key.
+Fixed: On hold payment status issue.
+Improved: Overall code improvement.
+</pre>
+
+<strong>**Version 1.0 | 30 Dec 2021**</strong>
+<pre>
+New: Initial plugin release.
+</pre>
